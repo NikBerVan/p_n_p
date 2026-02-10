@@ -1,0 +1,8 @@
+{
+  "chapterQuestionCount": 10,
+  "basePointsPerCorrect": 1,
+  "timerEnabled": false,
+  "questionTimeLimitSeconds": 20,
+  "timerBonusMaxPoints": 1,
+  "shuffleOptions": true
+}

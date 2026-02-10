@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-label="Спогад п'ятого розділу">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e4f7ee" />
+      <stop offset="100%" stop-color="#fff1d8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#g5)" />
+  <rect x="130" y="140" width="940" height="400" rx="28" fill="#ffffff" opacity="0.58" />
+  <path d="M180 500 C320 420 380 600 540 500 C700 400 760 580 980 460" stroke="#1f7a8c" stroke-width="16" fill="none" opacity="0.35" />
+  <text x="600" y="315" text-anchor="middle" font-size="64" font-family="Georgia, serif" fill="#1e2a2f">Мрії та плани</text>
+  <text x="600" y="390" text-anchor="middle" font-size="40" font-family="Verdana, sans-serif" fill="#3a4e58">Дорога попереду — наша</text>
+</svg>
