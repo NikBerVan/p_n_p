@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/components/chapterselection.tsx","./src/components/chaptersummary.tsx","./src/components/finalreveal.tsx","./src/components/introscreen.tsx","./src/components/progress.tsx","./src/components/questioncard.tsx","./src/lib/quiz.test.ts","./src/lib/quiz.ts","./src/lib/storage.ts"],"version":"5.9.3"}

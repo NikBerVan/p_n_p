@@ -1,14 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-label="Спогад другого розділу">
   <defs>
-    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f3f5d6" />
-      <stop offset="100%" stop-color="#d7f0e8" />
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09151f" />
+      <stop offset="58%" stop-color="#0d1a2b" />
+      <stop offset="100%" stop-color="#111728" />
+    </linearGradient>
+    <linearGradient id="line2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#63df8e" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#57d5ff" stop-opacity="0.7" />
     </linearGradient>
   </defs>
-  <rect width="1200" height="680" fill="url(#g2)" />
-  <rect x="130" y="140" width="940" height="400" rx="32" fill="#ffffff" opacity="0.62" />
-  <circle cx="260" cy="210" r="80" fill="#1f7a8c" opacity="0.25" />
-  <circle cx="940" cy="460" r="110" fill="#e4572e" opacity="0.2" />
-  <text x="600" y="315" text-anchor="middle" font-size="64" font-family="Georgia, serif" fill="#1e2a2f">Місця та історії</text>
-  <text x="600" y="390" text-anchor="middle" font-size="40" font-family="Verdana, sans-serif" fill="#3a4e58">Дороги, що стали спогадами</text>
+  <rect width="1200" height="680" fill="url(#bg2)" />
+  <rect x="100" y="120" width="1000" height="440" rx="38" fill="#14233b" opacity="0.7" stroke="#3f6ea3" stroke-opacity="0.45" />
+  <circle cx="250" cy="210" r="92" fill="#63df8e" opacity="0.2" />
+  <circle cx="920" cy="458" r="130" fill="#ff9f7e" opacity="0.2" />
+  <path d="M170 478 C360 395 430 585 610 500 C780 420 860 575 1030 490" stroke="url(#line2)" stroke-width="12" fill="none" opacity="0.56" />
+  <path d="M170 245 L260 220 L340 250 L430 206 L520 238" stroke="#8fdfff" stroke-width="6" fill="none" opacity="0.5" />
+
+  <text x="600" y="315" text-anchor="middle" font-size="76" font-family="Exo 2, Segoe UI, sans-serif" font-weight="700" fill="#eff8ff">Місця та історії</text>
+  <text x="600" y="392" text-anchor="middle" font-size="42" font-family="Manrope, Segoe UI, sans-serif" fill="#b1c7df">Дороги, що стали спогадами</text>
 </svg>

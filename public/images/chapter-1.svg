@@ -1,13 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-label="Спогад першого розділу">
   <defs>
-    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffe6d5" />
-      <stop offset="100%" stop-color="#ffd1b3" />
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091224" />
+      <stop offset="55%" stop-color="#0c1730" />
+      <stop offset="100%" stop-color="#13132a" />
+    </linearGradient>
+    <linearGradient id="shine1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff8d63" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#58f0da" stop-opacity="0.65" />
     </linearGradient>
   </defs>
-  <rect width="1200" height="680" fill="url(#g1)" />
-  <circle cx="220" cy="220" r="120" fill="#e4572e" opacity="0.22" />
-  <circle cx="920" cy="420" r="170" fill="#1f7a8c" opacity="0.2" />
-  <text x="600" y="300" text-anchor="middle" font-size="64" font-family="Georgia, serif" fill="#1e2a2f">Як усе почалося</text>
-  <text x="600" y="380" text-anchor="middle" font-size="40" font-family="Verdana, sans-serif" fill="#3a4e58">Наші перші жарти і перша іскра</text>
+  <rect width="1200" height="680" fill="url(#bg1)" />
+  <circle cx="220" cy="210" r="120" fill="#ff8d63" opacity="0.26" />
+  <circle cx="950" cy="470" r="170" fill="#63df8e" opacity="0.18" />
+  <circle cx="1030" cy="160" r="64" fill="#57d5ff" opacity="0.2" />
+  <path d="M130 530 C300 450 420 590 600 510 C790 425 920 575 1070 500" stroke="url(#shine1)" stroke-width="14" fill="none" opacity="0.52" />
+
+  <g fill="#ff6d90" opacity="0.7">
+    <path d="M178 130 l14 -14 a12 12 0 0 1 17 17 l-31 31 l-31 -31 a12 12 0 1 1 17 -17z" />
+    <path d="M982 300 l10 -10 a9 9 0 0 1 13 13 l-23 23 l-23 -23 a9 9 0 1 1 13 -13z" />
+  </g>
+
+  <text x="600" y="312" text-anchor="middle" font-size="78" font-family="Exo 2, Segoe UI, sans-serif" font-weight="700" fill="#f3f7ff">Як усе почалося</text>
+  <text x="600" y="392" text-anchor="middle" font-size="44" font-family="Manrope, Segoe UI, sans-serif" fill="#b7c8e7">Наші перші жарти і перша іскра</text>
 </svg>

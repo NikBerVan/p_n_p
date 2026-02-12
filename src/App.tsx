@@ -268,6 +268,12 @@ function App() {
 
   return (
     <main className="app-shell">
+      <div className="hearts-layer" aria-hidden="true">
+        {Array.from({ length: 18 }).map((_, index) => (
+          <span key={`heart-${index}`} className="heart" />
+        ))}
+      </div>
+
       <div className="background-orb orb-1" aria-hidden="true" />
       <div className="background-orb orb-2" aria-hidden="true" />
 

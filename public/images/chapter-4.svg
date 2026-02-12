@@ -1,15 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-label="Спогад четвертого розділу">
   <defs>
-    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#edf4ff" />
-      <stop offset="100%" stop-color="#d8f0ff" />
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1428" />
+      <stop offset="55%" stop-color="#101a34" />
+      <stop offset="100%" stop-color="#1c1230" />
     </linearGradient>
   </defs>
-  <rect width="1200" height="680" fill="url(#g4)" />
-  <circle cx="300" cy="230" r="120" fill="#1f7a8c" opacity="0.2" />
-  <circle cx="860" cy="420" r="150" fill="#e4572e" opacity="0.22" />
-  <path d="M220 150 L260 210 L180 210 Z" fill="#e4572e" opacity="0.35" />
-  <path d="M980 500 L1030 580 L930 580 Z" fill="#1f7a8c" opacity="0.35" />
-  <text x="600" y="315" text-anchor="middle" font-size="64" font-family="Georgia, serif" fill="#1e2a2f">Смішні моменти</text>
-  <text x="600" y="390" text-anchor="middle" font-size="40" font-family="Verdana, sans-serif" fill="#3a4e58">Хаос, що став легендами</text>
+  <rect width="1200" height="680" fill="url(#bg4)" />
+  <circle cx="305" cy="225" r="120" fill="#57d5ff" opacity="0.2" />
+  <circle cx="865" cy="420" r="150" fill="#ff6d90" opacity="0.2" />
+
+  <path d="M230 148 L275 214 L186 214 Z" fill="#ff9f7e" opacity="0.42" />
+  <path d="M985 486 L1040 573 L926 573 Z" fill="#63df8e" opacity="0.4" />
+  <path d="M590 230 l18 -18 a15 15 0 0 1 22 22 l-40 40 l-40 -40 a15 15 0 1 1 22 -22z" fill="#ff8fb6" opacity="0.75" />
+
+  <text x="600" y="314" text-anchor="middle" font-size="74" font-family="Exo 2, Segoe UI, sans-serif" font-weight="700" fill="#f2f7ff">Смішні моменти</text>
+  <text x="600" y="392" text-anchor="middle" font-size="41" font-family="Manrope, Segoe UI, sans-serif" fill="#b7c4e1">Хаос, що став легендами</text>
 </svg>

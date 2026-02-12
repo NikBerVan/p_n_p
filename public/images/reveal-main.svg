@@ -1,14 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-label="Фінальне розкриття">
   <defs>
-    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#fff3eb" />
-      <stop offset="100%" stop-color="#ffe0cf" />
+    <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1225" />
+      <stop offset="55%" stop-color="#111831" />
+      <stop offset="100%" stop-color="#1b1530" />
+    </linearGradient>
+    <linearGradient id="shine6" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff9f7e" stop-opacity="0.84" />
+      <stop offset="100%" stop-color="#63df8e" stop-opacity="0.8" />
     </linearGradient>
   </defs>
-  <rect width="1200" height="680" fill="url(#g6)" />
-  <circle cx="260" cy="180" r="140" fill="#e4572e" opacity="0.24" />
-  <circle cx="950" cy="460" r="170" fill="#1f7a8c" opacity="0.22" />
-  <text x="600" y="280" text-anchor="middle" font-size="74" font-family="Georgia, serif" fill="#1e2a2f">Для тебе</text>
-  <text x="600" y="360" text-anchor="middle" font-size="44" font-family="Verdana, sans-serif" fill="#3a4e58">Кожен розділ був того вартий.</text>
-  <text x="600" y="440" text-anchor="middle" font-size="34" font-family="Verdana, sans-serif" fill="#e4572e">Дякую, що ти моя найулюбленіша людина.</text>
+  <rect width="1200" height="680" fill="url(#bg6)" />
+  <circle cx="255" cy="190" r="138" fill="#ff8d63" opacity="0.28" />
+  <circle cx="945" cy="470" r="172" fill="#57d5ff" opacity="0.2" />
+
+  <path d="M0 560 Q 250 470 480 560 T 980 540 T 1200 560 V680 H0 Z" fill="#ff6d90" opacity="0.16" />
+  <path d="M0 610 Q 280 528 560 620 T 1200 590 V680 H0 Z" fill="#63df8e" opacity="0.16" />
+  <path d="M585 260 l28 -28 a24 24 0 0 1 34 34 l-62 62 l-62 -62 a24 24 0 1 1 34 -34z" fill="#ff8fb6" opacity="0.9" />
+
+  <text x="600" y="286" text-anchor="middle" font-size="84" font-family="Exo 2, Segoe UI, sans-serif" font-weight="700" fill="#f3f8ff">Для тебе</text>
+  <text x="600" y="368" text-anchor="middle" font-size="44" font-family="Manrope, Segoe UI, sans-serif" fill="#c0cfeb">Кожен розділ був того вартий.</text>
+  <text x="600" y="445" text-anchor="middle" font-size="34" font-family="Manrope, Segoe UI, sans-serif" fill="url(#shine6)">Дякую, що ти моя найулюбленіша людина.</text>
 </svg>

@@ -10,6 +10,7 @@ A static, mobile-first quiz website built with Vite + React + TypeScript.
 - Optional timer scoring and option shuffle (configurable in `src/data/settings.json`).
 - Persistent progress in `localStorage` + full restart reset.
 - Theme switcher with 3 dark presets (`Темна романтика`, `Темний персик`, `Смарагдова ніч`) and saved preference.
+- Animated UI: falling themed hearts background, lively button interactions, and floating moment cards.
 - Final gift/reveal screen with optional easter egg threshold.
 - Static deployment via GitHub Actions to GitHub Pages.
 

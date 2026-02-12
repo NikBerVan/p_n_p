@@ -1,13 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-label="Спогад п'ятого розділу">
   <defs>
-    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#e4f7ee" />
-      <stop offset="100%" stop-color="#fff1d8" />
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07140f" />
+      <stop offset="56%" stop-color="#0b1e1b" />
+      <stop offset="100%" stop-color="#122118" />
+    </linearGradient>
+    <linearGradient id="path5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#63df8e" stop-opacity="0.78" />
+      <stop offset="100%" stop-color="#58f0da" stop-opacity="0.7" />
     </linearGradient>
   </defs>
-  <rect width="1200" height="680" fill="url(#g5)" />
-  <rect x="130" y="140" width="940" height="400" rx="28" fill="#ffffff" opacity="0.58" />
-  <path d="M180 500 C320 420 380 600 540 500 C700 400 760 580 980 460" stroke="#1f7a8c" stroke-width="16" fill="none" opacity="0.35" />
-  <text x="600" y="315" text-anchor="middle" font-size="64" font-family="Georgia, serif" fill="#1e2a2f">Мрії та плани</text>
-  <text x="600" y="390" text-anchor="middle" font-size="40" font-family="Verdana, sans-serif" fill="#3a4e58">Дорога попереду — наша</text>
+  <rect width="1200" height="680" fill="url(#bg5)" />
+  <rect x="120" y="132" width="960" height="416" rx="32" fill="#132b24" opacity="0.62" stroke="#4bc889" stroke-opacity="0.4" />
+  <circle cx="220" cy="205" r="82" fill="#58f0da" opacity="0.2" />
+  <circle cx="965" cy="455" r="138" fill="#ff9f7e" opacity="0.17" />
+  <path d="M175 495 C320 402 375 585 535 490 C690 396 760 575 995 448" stroke="url(#path5)" stroke-width="14" fill="none" opacity="0.56" />
+
+  <text x="600" y="314" text-anchor="middle" font-size="74" font-family="Exo 2, Segoe UI, sans-serif" font-weight="700" fill="#ebfff4">Мрії та плани</text>
+  <text x="600" y="392" text-anchor="middle" font-size="42" font-family="Manrope, Segoe UI, sans-serif" fill="#afd6c2">Дорога попереду — наша</text>
 </svg>
