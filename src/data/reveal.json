@@ -3,8 +3,8 @@
   "message": "Цей квіз — карта наших найкращих моментів. Незалежно від рахунку, пам'ятай: ти моя найулюбленіша історія.",
   "image": "images/reveal-main.svg",
   "link": {
-    "label": "Відкрити наш плейлист",
-    "url": "https://open.spotify.com"
+    "label": "Відкрити нашу пісню",
+    "url": "https://music.youtube.com/watch?v=fJLQCf4mFP0&desc_update=1&si=-vucuCmUkb9KsAQL"
   },
   "easterEgg": {
     "minScore": 42,

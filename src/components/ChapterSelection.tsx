@@ -17,6 +17,16 @@ export function ChapterSelection({
   onStartChapter,
   onRestart,
 }: ChapterSelectionProps) {
+  const chapterNumber = (chapter: Chapter, fallbackIndex: number): string => {
+    const match = chapter.id.match(/(\d+)$/);
+    return match ? match[1] : String(fallbackIndex + 1);
+  };
+
+  const currentChapter = chapters[currentChapterIndex];
+  const currentChapterNumber = currentChapter
+    ? chapterNumber(currentChapter, currentChapterIndex)
+    : String(currentChapterIndex + 1);
+
   return (
     <section className="panel fade-in" aria-labelledby="chapter-select-title">
       <div className="panel-head">
@@ -39,7 +49,7 @@ export function ChapterSelection({
               role="listitem"
               className={`chapter-card ${isCurrent ? 'current' : ''} ${isCompleted ? 'done' : ''}`}
             >
-              <p className="chapter-order">Розділ {index + 1}</p>
+              <p className="chapter-order">Розділ {chapterNumber(chapter, index)}</p>
               <h3>{chapter.title}</h3>
               <p>{chapter.description}</p>
               <div className="chapter-meta">
@@ -52,7 +62,7 @@ export function ChapterSelection({
       </div>
       <div className="actions">
         <button className="button primary" type="button" onClick={onStartChapter}>
-          Почати розділ {currentChapterIndex + 1}
+          Почати розділ {currentChapterNumber}
         </button>
         <button className="button ghost" type="button" onClick={onRestart}>
           Перезапустити квіз

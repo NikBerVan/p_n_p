@@ -1,4 +1,4 @@
-import type { CSSProperties } from 'react';
+import { useState, type CSSProperties } from 'react';
 import type { RevealConfig } from '../types';
 import { calculateAccuracy, resolveAssetPath } from '../lib/quiz';
 
@@ -19,6 +19,7 @@ export function FinalReveal({
   reveal,
   onRestart,
 }: FinalRevealProps) {
+  const [surpriseOpened, setSurpriseOpened] = useState(false);
   const accuracy = calculateAccuracy(totalCorrect, totalAnswered);
   const showEasterEgg = totalScore >= reveal.easterEgg.minScore;
 
@@ -69,6 +70,20 @@ export function FinalReveal({
           ) : null}
         </article>
       ) : null}
+
+      <div className="surprise-gate">
+        {!surpriseOpened ? (
+          <button className="button link" type="button" onClick={() => setSurpriseOpened(true)}>
+            до сюрпризу
+          </button>
+        ) : (
+          <article className="coupon-card fade-in">
+            <h3>Купон на безкінечні обіймашки</h3>
+            <p className="coupon-caption">Обналичується в будь-який момент — навіть без причини.</p>
+            <p className="coupon-signoff">«Я був радий повспоминати багато наших моментів і сподіваюся, ти теж)»</p>
+          </article>
+        )}
+      </div>
 
       <button className="button primary" type="button" onClick={onRestart}>
         Грати ще раз

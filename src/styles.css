@@ -669,6 +669,30 @@ p {
   background: var(--easter-bg);
 }
 
+.surprise-gate {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.coupon-card {
+  display: grid;
+  gap: 0.6rem;
+  border: 1px dashed rgba(87, 213, 255, 0.52);
+  border-radius: 16px;
+  padding: 0.95rem;
+  background: rgba(12, 24, 40, 0.9);
+}
+
+.coupon-caption {
+  color: var(--accent-cyan);
+  font-weight: 700;
+}
+
+.coupon-signoff {
+  color: var(--muted);
+  font-style: italic;
+}
+
 .actions {
   display: flex;
   gap: 0.6rem;
