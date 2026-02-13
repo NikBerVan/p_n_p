@@ -8,8 +8,8 @@ export function IntroScreen({ onStart }: IntroScreenProps) {
       <p className="eyebrow">Мініквіз</p>
       <h1 id="intro-title">Наші моменти</h1>
       <p className="lead">
-        П'ять розділів, п'ятдесят запитань і один фінальний сюрприз. Готова(-ий) знову
-        прожити наші найкращі миті?
+        Декілька розділів, аби згадати наші основні та не дуже моменти та один фінальний сюрприз. Готова знову
+        прожити наші запам'ятовані миті?
       </p>
       <button className="button primary" type="button" onClick={onStart}>
         Почати квіз
